@@ -63,7 +63,7 @@ namespace Bit.App.Pages
                 new KeyValuePair<string, string>("light", AppResources.Light),
                 new KeyValuePair<string, string>("dark", AppResources.Dark),
                 new KeyValuePair<string, string>("black", AppResources.Black),
-                new KeyValuePair<string, string>("dracula", "Dracula),
+                new KeyValuePair<string, string>("dracula", "Dracula"),
                 new KeyValuePair<string, string>("nord", "Nord"),
                 
             };

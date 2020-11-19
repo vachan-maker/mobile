@@ -47,7 +47,7 @@ namespace Bit.App.Utilities
             }
             else if (name == "dracula")
             {
-                resource.MergedDictionaries.Add(new Dracula());
+                resources.MergedDictionaries.Add(new Dracula());
                 UsingLightTheme = false;
             }
             else
