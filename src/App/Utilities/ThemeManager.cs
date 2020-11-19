@@ -45,6 +45,10 @@ namespace Bit.App.Utilities
                 resources.MergedDictionaries.Add(new Light());
                 UsingLightTheme = true;
             }
+            else if (name == "dracula")
+            {
+                resource.MergedDictionaries.Add(new Dracula());
+                UsingLightTheme = false;
             else
             {
                 var deviceActionService = ServiceContainer.Resolve<IDeviceActionService>("deviceActionService", true);
