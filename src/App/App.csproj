@@ -135,6 +135,9 @@
     <Compile Update="Styles\Nord.xaml.cs">
       <DependentUpon>Nord.xaml</DependentUpon>
     </Compile>
+    <Compile Update ="Styles\Dracula.xaml.cs">
+      <DependentUpon>Dracula.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Styles\Variables.xaml.cs">
       <DependentUpon>Variables.xaml</DependentUpon>
     </Compile>
