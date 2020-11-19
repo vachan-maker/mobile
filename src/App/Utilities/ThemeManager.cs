@@ -49,6 +49,7 @@ namespace Bit.App.Utilities
             {
                 resource.MergedDictionaries.Add(new Dracula());
                 UsingLightTheme = false;
+            }
             else
             {
                 var deviceActionService = ServiceContainer.Resolve<IDeviceActionService>("deviceActionService", true);
