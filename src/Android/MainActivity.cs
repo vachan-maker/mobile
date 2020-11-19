@@ -350,6 +350,10 @@ namespace Bit.Droid
             {
                 SetTheme(Resource.Style.NordTheme);
             }
+            else if (theme == "dracula")
+            {
+                SetTheme(Resource.Style.DraculaTheme);
+            }
             else
             {
                 if (_deviceActionService.UsingDarkTheme())
